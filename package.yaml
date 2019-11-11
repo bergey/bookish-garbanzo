@@ -1,0 +1,20 @@
+spec-version: 0.30.0
+name: bookish-garbanzo
+version: 0.1
+synopsis: Structured (JSON) logging for Haskell / Stackdriver
+github: bergey/bookish-garbanzo
+author: Daniel Bergey
+maintainer: bergey@teallabs.org
+
+library:
+  source-dirs:
+    - src
+
+dependencies:
+    - aeson
+    - base
+    - bytestring
+    - mtl
+    - text
+    - transformers
+    - unordered-containers
